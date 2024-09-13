@@ -6,9 +6,13 @@
     box-sizing: border-box;
 }
 
+/*set the height of the page to 100% the users PC*/
+html {
+    height: 100vh;
+}
+
 body {
     background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
